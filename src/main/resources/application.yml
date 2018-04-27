@@ -1,0 +1,22 @@
+#开发联调环境
+dev:
+    url:
+        member: http://192.168.0.62:18086
+        merchant: http://192.168.0.62:18085
+        getway: http://192.168.0.62:18092
+        settlement: http://192.168.0.62:18088
+        order: http://192.168.0.62:18090
+        sts: http://192.168.0.62:17072
+        account: http://192.168.0.62:18081
+        validator: http://192.168.0.62:17073
+        gd: http://192.168.0.62:17074     
+
+#本机服务
+localhost:
+    url:
+        member: http://localhost:8081
+        merchant: http://localhost:8082
+        redenvelope: http://localhost:8083
+        validator: http://localhost:8085
+        sales: http://localhost:8086
+        settlement: http://localhost:8090
